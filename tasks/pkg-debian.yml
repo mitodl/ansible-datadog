@@ -5,4 +5,4 @@
 
 - apt_repository: repo='deb http://apt.datadoghq.com/ stable main' state=present update_cache=yes
 
-- apt: name=datadog-agent state=latest
+- apt: name=datadog-agent state=latest update_cache=yes
